@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <title>⌚Clock-⏰Alarm Timer</title>
+  </head>
+  <body class="bg-dark">
+    
+    <center>
+      <section>
+        <div id="showTime"></div>
+        <!-- <input type="datetime-local" > -->
+        <div class="container p-4 col-lg-4 col-md-6 col-sm-12  shadow-sm" id="control">
+          <input type="number" class="form-control mb-1 w-25" id="myHour" placeholder="Hr">
+          <input type="number" class="form-control w-25" id="myMin" placeholder="Min">
+          <!-- <input type="number" id="mySec" placeholder="Ss"> -->
+          <button class="btn btn-warning mt-3" onclick="setAlarm()">Set-Alarm</button>
+          <button class="btn btn-danger mt-3" onclick="clearAlarm()">Stop-Alarm</button>
+        </div>
+      </section>
+    </center>
+   
+    <!-- <div id="numBoard"></div> -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
